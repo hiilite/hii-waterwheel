@@ -1,0 +1,25 @@
+#cast_repeat .cmb-repeat-group-field {
+    width: 50%;
+    float: left;
+    padding-bottom: 0;
+}
+
+#cast_repeat .cmb-remove-field-row {
+    clear: both;
+    padding-top: 0;
+}
+.postbox .inside .cmb-repeatable-group h2.cmb-group-name {
+    font-weight: bold;
+    font-size: 120% !important;
+}
+
+.cmb2-wrap .cmb-row.cmb-repeat .cmb2-metabox-description {
+    padding-bottom: 0 !important;
+}
+
+.cmb-repeatable-group .cmb-group-description .cmb-th {
+    padding-bottom: 0 !important;
+}
+ul.cmb2-checkbox-list.cmb2-list {
+    column-count: 4;
+}
