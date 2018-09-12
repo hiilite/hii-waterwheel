@@ -20,9 +20,6 @@ class HiiWaterwheel_Install {
 	public static function install() {
 		global $wpdb;
 		
-		self::init_user_roles();
-		self::default_terms();
-		
 		// Redirect to setup screen for new installs
 		if ( ! get_option(  'hiiwaterwheel_version' ) ) {
 			set_transient( '_hiiwaterwheel_activation_redirect', 1, HOUR_IN_SECONDS);

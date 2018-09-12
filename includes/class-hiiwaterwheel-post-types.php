@@ -68,7 +68,7 @@ class HiiWaterwheel_Post_Types {
 		if( post_type_exists( 'waterwheel' ) ) 
 			return;
 		
-		$admin_capability = 'manage_waterwheels';
+		$admin_capability = 'manage_options';
 		
 				
 		//$permalink_structure = HiiWaterwheel_Post_Types::get_permalink_structure();
@@ -118,7 +118,7 @@ class HiiWaterwheel_Post_Types {
 				'description' => sprintf( __( 'This is where you can create and manage %s.', 'hiiwaterwheel' ), $plural ),
 				'public' 				=> true,
 				'show_ui' 				=> true,
-				'capability_type' 		=> 'show',
+				'capability_type' 		=> 'post',
 				'map_meta_cap'          => true,
 				'publicly_queryable' 	=> true,
 				'exclude_from_search' 	=> true,
@@ -127,9 +127,9 @@ class HiiWaterwheel_Post_Types {
 				'query_var' 			=> true,
 				'supports' 				=> array( 'title', 'publicize' ),
 				'has_archive' 			=> false,
-				'show_in_nav_menus' 	=> false,
+				'show_in_nav_menus' 	=> true,
 				'menu_icon'				=> 'dashicons-slides',
-				'menu_position'			=> 31,
+				'menu_position'			=> 6,
 			) )
 		);
 

@@ -2,8 +2,8 @@
 /*
 Plugin Name: HiiWaterwheel
 Plugin URI: https://hiilite.com/wordpress-plugins/hiiwaterwheel/
-Description: This plugin allows you to manage your own TV show right from WordPress.
-Version: 0.0.1
+Description: This plugin allows you create a basic waterwheel image carousel
+Version: 0.0.2
 Author: Hiilite
 Author URI: https://hiilite.com
 Text Domain: hiiwaterwheel
