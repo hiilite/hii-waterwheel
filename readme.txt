@@ -3,7 +3,7 @@ Contributors: hiilite
 Tags: wordpress, plugin, carousel, waterwheel, images
 Requires at least: 4.0
 Tested up to: 4.9.4
-Stable tag: 0.0.3
+Stable tag: 0.0.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,7 +30,10 @@ This plugin allows you create a basic waterwheel image carousel.
 4. Waterwheel editor with images added
 
 == Changelog ==
-	
+
+= 0.0.4 =
+* 2018-09-19
+* Fixing left and right arrow positions
 
 = 0.0.3 =
 * 2018-09-12

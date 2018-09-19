@@ -1,7 +1,7 @@
 .hii-w-carousel-wrap {
 	width:100%;	
 	height:300px;
-
+	position:relative;
 }
 .hii-w-carousel {
 	width:90%;	
