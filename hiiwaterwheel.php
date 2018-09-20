@@ -3,7 +3,7 @@
 Plugin Name: HiiWaterwheel
 Plugin URI: https://hiilite.com/wordpress-plugins/hiiwaterwheel/
 Description: This plugin allows you create a basic waterwheel image carousel
-Version: 0.0.4
+Version: 0.0.5
 Author: Hiilite
 Author URI: https://hiilite.com
 Text Domain: hiiwaterwheel
